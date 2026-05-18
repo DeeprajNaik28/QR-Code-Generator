@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f0f0f;
+  color:white;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.container{
+  width:100%;
+  max-width:420px;
+  background:#1b1b1b;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+}
+
+h1{
+  margin-bottom:20px;
+}
+
+input{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+  margin-bottom:15px;
+  font-size:16px;
+}
+
+input[type="file"]{
+  background:#2b2b2b;
+  color:white;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+  background:#00c853;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+#qrWrapper{
+  margin-top:25px;
+  position:relative;
+  width:260px;
+  height:260px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#qrBox{
+  width:100%;
+  height:100%;
+  background:white;
+  padding:10px;
+  border-radius:16px;
+}
+
+#logoPreview{
+  position:absolute;
+  width:60px;
+  height:60px;
+  object-fit:cover;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border-radius:12px;
+  background:white;
+  padding:4px;
+  display:none;
+}
+
+#downloadBtn{
+  display:none;
+}
