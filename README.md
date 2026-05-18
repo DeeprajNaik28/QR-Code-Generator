@@ -12,6 +12,7 @@ A simple QR Code Generator web app that allows users to:
 
 ## Deployment
 
+https://qr-code-generator-sable-seven.vercel.app
 
 ---
 ## Features
